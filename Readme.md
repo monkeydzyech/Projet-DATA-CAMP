@@ -9,6 +9,11 @@ Ce projet utilise Streamlit pour analyser et visualiser les commentaires IMDb d'
 ```bash
 git clone https://github.com/monkeydzyech/Projet-DATA-CAMP.git
 cd votre-projet
+Assurez-vous d'être dans le répertoire de votre projet où se trouve le fichier requirements.txt.
+
+Exécutez la commande suivante dans le terminal pour installer les dépendances :
+
+pip install -r requirements.txt
 streamlit run streamlit.py
 
 L'application se lance dans le navigateur par défaut et offre différentes visualisations interactives des commentaires IMDb.
