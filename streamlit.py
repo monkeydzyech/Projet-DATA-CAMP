@@ -13,7 +13,7 @@ st.title('IMDb Reviews Analysis')
 # Load the CSV file
 # df = pd.read_csv('./data/reviews_labels.csv')  # Replace with the path to your file
 # df = pd.read_csv('./data/updated_reviews_labels.csv')  # Replace with the path to your file
-df = pd.read_csv('./data/updated_reviews_labels_with_new_countries.csv')  # Replace with the path to your file
+df = pd.read_csv('updated_reviews_labels_with_new_countries.csv')  # Replace with the path to your file
 
 # Count the occurrences of each label for the pie chart
 label_counts = df['label'].value_counts()
