@@ -33,6 +33,8 @@ Carte des Avis par Pays :
 Une carte choroplèthe montre la distribution géographique des avis en fonction des pays.
 Prétraitement des Données
 Les commentaires sont prétraités pour enlever la ponctuation, convertir en minuscules et éliminer les mots vides.
+Nous avons deployés notre solution dans le cloud.
+Pour visuliser il suffit de se connecter a : https://monkeydzyech-projet-data-camp-streamlit-gkhimv.streamlit.app/
 
 Technologies Utilisées
 Streamlit
