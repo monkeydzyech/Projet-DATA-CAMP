@@ -52,7 +52,7 @@ def preprocess_and_count_words(dataframe, sentiment):
 
 # Calculate word frequencies for each sentiment
 positive_words = preprocess_and_count_words(df, 'Positive')
-negative_words = preprocess_and_count_words(df, 'Négative')
+negative_words = preprocess_and_count_words(df, 'Negative')
 neutral_words = preprocess_and_count_words(df, 'Neutral')
 
 # Function to create a bar chart for a sentiment
