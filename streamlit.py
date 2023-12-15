@@ -41,5 +41,4 @@ st.plotly_chart(fig_gender)
 fig_age = px.histogram(df, x='Age', nbins=20, title='Distribution des Âges')
 st.plotly_chart(fig_age)
 
-Dispose d’un menu contextuel
-Composer
+
